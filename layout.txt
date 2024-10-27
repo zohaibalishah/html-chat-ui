@@ -1,0 +1,50 @@
+<div class="h-[10vh] bg-red-200">Nav</div>
+
+<div class="flex">
+  <div class="hidden h-[90vh] min-w-[250px] overflow-y-scroll bg-purple-400 md:block">
+    side bar
+
+    <p class="text-lg font-semibold text-white">Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+    <p>Lorem ipsum dolor ?</p>
+  </div>
+  <div class="relative flex-1">
+    <div class="h-[85vh] overflow-y-scroll p-3">
+      <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div class="h-[100%] w-[100%] bg-red-200"></div>
+        <div class="h-[100%] w-[100%] bg-red-200"></div>
+        <div class="h-[120px] w-[100%] bg-red-200"></div>
+        <div class="h-[120px] w-[100%] bg-red-200"></div>
+        <div class="h-[120px] w-[100%] bg-red-200"></div>
+        <div class="h-[120px] w-[100%] bg-red-200"></div>
+        <div class="h-[120px] w-[100%] bg-red-200"></div>
+      </div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos, explicabo sequi perspiciatis atque esse quae quo, temporibus repellat necessitatibus tenetur quasi. Labore velit voluptate reprehenderit tempora veritatis est nam?
+    </div>
+
+    <footer class="bottom-0 h-[5vh] w-full bg-orange-300">footer</footer>
+  </div>
+</div>

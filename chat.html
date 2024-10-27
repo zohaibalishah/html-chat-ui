@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 h-screen flex flex-col md:flex-row">
+  <!-- Sidebar -->
+  <div class="w-full md:w-1/4 bg-white p-4 border-b md:border-b-0 md:border-r border-gray-200">
+    <div class="mb-4">
+      <input type="text" placeholder="Search (Ctrl+/)" class="w-full p-2 border border-gray-300 rounded">
+    </div>
+    <div class="mb-4">
+      <h2 class="text-lg font-semibold" style="color: #726BE8;">Chats</h2>
+      <ul>
+        <li class="flex items-center p-2 bg-gray-100 rounded mb-2">
+          <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white">WM</div>
+          <div class="ml-2">
+            <p class="font-semibold text-gray-700">Waldemar Mannering</p>
+            <p class="text-sm" style="color: #BDBDBD;">5 Minutes</p>
+          </div>
+        </li>
+        <li class="flex items-center p-2 bg-purple-100 rounded mb-2">
+          <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white">FR</div>
+          <div class="ml-2">
+            <p class="font-semibold text-gray-700">Felecia Rower</p>
+            <p class="text-sm" style="color: #BDBDBD;">5 Minutes</p>
+
+          </div>
+        </li>
+        <li class="flex items-center p-2 bg-gray-100 rounded mb-2">
+          <div class="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center text-white">CM</div>
+          <div class="ml-2">
+            <p class="font-semibold text-gray-700">Calvin Moore</p>
+            <p class="text-sm" style="color: #BDBDBD;">5 Minutes</p>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="text-lg font-semibold" style="color: #726BE8;">Contacts</h2>
+      <ul>
+        <li class="flex items-center p-2 mb-2">
+          <div class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white">NM</div>
+          <div class="ml-2">
+            <p class="font-semibold text-gray-700">Natalie Maxwell</p>
+            <p class="text-sm" style="color: #BDBDBD;">UI/UX Designer</p>
+          </div>
+        </li>
+        <li class="flex items-center p-2 mb-2">
+          <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white">JC</div>
+          <div class="ml-2">
+            <p class="font-semibold text-gray-700">Jess Coock</p>
+            <p class="text-sm" style="color: #BDBDBD;">Business Analyst</p>
+          </div>
+        </li>
+        <li class="flex items-center p-2 mb-2">
+          <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white">LM</div>
+          <div class="ml-2">
+            <p class="font-semibold text-gray-700">Louie Mason</p>
+            <p class="text-sm" style="color: #BDBDBD;">Business Executive</p>
+          </div>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main Chat Area -->
+  <div class="flex-1 flex flex-col">
+    <!-- Chat Header -->
+    <div class="flex items-center justify-between p-4 bg-white border-b border-gray-200">
+      <div class="flex items-center">
+        <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white">FR</div>
+        <div class="ml-2">
+          <p class="font-semibold text-gray-700">Felecia Rower</p>
+          <p class="text-sm text-gray-500">NextJS Developer</p>
+        </div>
+      </div>
+      <div class="flex items-center">
+        <button class="p-2">
+          <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+          </svg>
+        </button>
+        <button class="p-2">
+          <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-4.553a1.5 1.5 0 00-2.121-2.121L12.5 7.879l-4.553-4.553a1.5 1.5 0 00-2.121 2.121L10 10m5 0v10m-5-10v10"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Chat Messages -->
+    <div class="flex-1 p-4 overflow-y-auto">
+      <div class="flex items-start mb-4">
+        <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white">FR</div>
+        <div class="ml-2">
+          <div class="bg-gray-100 p-2 rounded">
+            <p class="text-gray-700">Hey John, I am looking for the best admin template. Could you please help me to find it out?</p>
+          </div>
+          <p class="text-sm text-gray-500 mt-1">10:02 AM</p>
+        </div>
+      </div>
+      <div class="flex items-end justify-end mb-4">
+        <div class="mr-2">
+          <div class="bg-[#7367F0] p-2 rounded">
+            <p class="text-gray-700">Hi. What are your business hours?</p>
+          </div>
+          <p class="text-sm text-gray-500 mt-1 text-right">10:03 AM</p>
+        </div>
+        <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white">J</div>
+      </div>
+      <div class="flex items-start mb-4">
+        <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white">FR</div>
+        <div class="ml-2">
+          <div class="bg-gray-100 p-2 rounded">
+            <p class="text-gray-700">Thanks. Can I book an appointment for Wednesday at 10 AM?</p>
+          </div>
+          <p class="text-sm text-gray-500 mt-1">10:05 AM</p>
+        </div>
+      </div>
+      <div class="flex items-end justify-end mb-4">
+        <div class="mr-2">
+          <div class="bg-[#7367F0] p-2 rounded">
+            <p class="text-gray-700">We are open Mon-Fri, 9 AM to 5 PM.</p>
+          </div>
+          <p class="text-sm text-gray-500 mt-1 text-right">10:03 AM</p>
+        </div>
+        <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white">J</div>
+      </div>
+    
+    </div>
+
+    <!-- Message Input -->
+    <div class="p-4 bg-white border-t border-gray-200">
+      <div class="flex items-center">
+        <input type="text" placeholder="Type your message here" class="flex-1 p-2 border border-gray-300 rounded">
+        <button class="ml-2 p-2 bg-blue-500 text-white rounded">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
